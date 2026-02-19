@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto","Montserrat", sans-serif;
+}
+
+
+/* Navbar Styles */
+#navbar{
+    height: 90px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+    color: white;
+}
+
+#spotify-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#spotify-logo img{
+    height: 40px;
+    margin: 0 10px 0 40px;
+}
+
+
+#spotify-logo p{
+    font-size: 30px;
+    font-weight: 600;
+}
+.nav-links{
+    
+    padding: 20px;
+    margin: 0 40px 0 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    font-size: 20px; 
+    font-weight: 500;
+}
